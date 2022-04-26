@@ -1,0 +1,31 @@
+{
+  "files":
+  [
+  {"route":"larnach","name":"/assets/larnach/1.jpg","memo":"The main path to the castle.","320w":"/assets/larnach/320w/1.jpg"},
+  {"route":"larnach","name":"/assets/larnach/2.jpg","memo":"Castle view from the central lawn.","320w":"/assets/larnach/320w/2.jpg"},
+  {"route":"larnach","name":"/assets/larnach/3.jpg","memo":"Castle tower.","320w":"/assets/larnach/320w/3.jpg"},
+  {"route":"larnach","name":"/assets/larnach/4.jpg","memo":"Central entrance to the castle.","320w":"/assets/larnach/320w/4.jpg"},
+  {"route":"larnach","name":"/assets/larnach/5.jpg","memo":"Gorgeous  Ladies Dressed in Old Fashioned Suits.","320w":"/assets/larnach/320w/5.jpg"},
+  {"route":"larnach","name":"/assets/larnach/6.jpg","memo":"Bronse Alice with golden hair.","320w":"/assets/larnach/320w/6.jpg"},
+  {"route":"larnach","name":"/assets/larnach/7.jpg","memo":"White camellias.","320w":"/assets/larnach/320w/7.jpg"},
+  {"route":"larnach","name":"/assets/larnach/8.jpg","memo":"Red Flowers which look like a peppers.","320w":"/assets/larnach/320w/8.jpg"},
+  {"route":"larnach","name":"/assets/larnach/9.jpg","memo":"Castle backyard with summer garden.","320w":"/assets/larnach/320w/9.jpg"},
+  {"route":"larnach","name":"/assets/larnach/10.jpg","memo":"Green alley.","320w":"/assets/larnach/320w/10.jpg"},
+  {"route":"larnach","name":"/assets/larnach/11.jpg","memo":"Tea Party Pointer.","320w":"/assets/larnach/320w/11.jpg"},
+  {"route":"larnach","name":"/assets/larnach/12.jpg","memo":"Recreation and Attractions.","320w":"/assets/larnach/320w/12.jpg"},
+  {"route":"larnach","name":"/assets/larnach/13.jpg","memo":"Picturesque gazebo.","320w":"/assets/larnach/320w/13.jpg"},
+  {"route":"larnach","name":"/assets/larnach/14.jpg","memo":"Point for photographing.","320w":"/assets/larnach/320w/14.jpg"},
+  {"route":"larnach","name":"/assets/larnach/15.jpg","memo":"Bay view.","320w":"/assets/larnach/320w/15.jpg"},
+  {"route":"larnach","name":"/assets/larnach/16.jpg","memo":"Otago Harbor.","320w":"/assets/larnach/320w/16.jpg"},
+  {"route":"larnach","name":"/assets/larnach/17.jpg","memo":"Otago Harbor view.","320w":"/assets/larnach/320w/17.jpg"},
+  {"route":"larnach","name":"/assets/larnach/18.jpg","memo":"Portobello road.","320w":"/assets/larnach/320w/18.jpg"},
+  {"route":"larnach","name":"/assets/larnach/19.jpg","memo":"Portobello road.","320w":"/assets/larnach/320w/19.jpg"},
+  {"route":"larnach","name":"/assets/larnach/20.jpg","memo":"Pacific Ocean View","320w":"/assets/larnach/320w/20.jpg"},
+  {"route":"larnach","name":"/assets/larnach/21.jpg","memo":"An extinct volcano in Otago.","320w":"/assets/larnach/320w/21.jpg"},
+  {"route":"larnach","name":"/assets/larnach/22.jpg","memo":"Dense forest of the Otago Peninsula 1.","320w":"/assets/larnach/320w/22.jpg"},
+  {"route":"larnach","name":"/assets/larnach/23.jpg","memo":"Dense forest of the Otago Peninsula 2. ","320w":"/assets/larnach/320w/23.jpg"},
+  {"route":"larnach","name":"/assets/larnach/24.jpg","memo":"Dense forest of the Otago Peninsula 3. ","320w":"/assets/larnach/320w/24.jpg"},
+  {"route":"larnach","name":"/assets/larnach/25.jpg","memo":"Castle garden.","320w":"/assets/larnach/320w/25.jpg"},
+  {"route":"larnach","name":"/assets/larnach/26.jpg","memo":"Dense forest of the Otago Peninsula 4","320w":"/assets/larnach/320w/26.jpg"}
+  ]
+}

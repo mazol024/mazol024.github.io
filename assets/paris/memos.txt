@@ -1,0 +1,25 @@
+{
+  "files":
+  [
+    {"route":"paris","name":"/assets/paris/1.jpg","memo":"Pont du Carrousel. (Bridge).","320w":"/assets/paris/320w/1.jpg"},
+    {"route":"paris","name":"/assets/paris/2.jpg","memo":"Quai de la Mégisserie near Seine River.","320w":"/assets/paris/320w/2.jpg"},
+    {"route":"paris","name":"/assets/paris/3.jpg","memo":"Seine River with the river tram. ","320w":"/assets/paris/320w/3.jpg"},
+    {"route":"paris","name":"/assets/paris/4.jpg","memo":"View from Pont Neuf.","320w":"/assets/paris/320w/4.jpg"},
+    {"route":"paris","name":"/assets/paris/5.jpg","memo":"The Louvre and its large pyramid.","320w":"/assets/paris/320w/5.jpg"},
+    {"route":"paris","name":"/assets/paris/6.jpg","memo":"Statue en bronze de Charlemagne et ses levdes.","320w":"/assets/paris/320w/6.jpg"},
+    {"route":"paris","name":"/assets/paris/7.jpg","memo":"Seine River with the river tram.","320w":"/assets/paris/320w/7.jpg"},
+    {"route":"paris","name":"/assets/paris/8.jpg","memo":"Carrousel Arc de Triomphe.","320w":"/assets/paris/320w/8.jpg"},
+    {"route":"paris","name":"/assets/paris/9.jpg","memo":"Tuileries Garden. Jardin des Tuileries.","320w":"/assets/paris/320w/9.jpg"},
+    {"route":"paris","name":"/assets/paris/10.jpg","memo":"Jardin du Palais Royal.","320w":"/assets/paris/320w/10.jpg"},
+    {"route":"paris","name":"/assets/paris/11.jpg","memo":"Les Deux Plateaux. Colonnes de Buren/Les Deux Plateaux.","320w":"/assets/paris/320w/11.jpg"},
+    {"route":"paris","name":"/assets/paris/12.jpg","memo":"Cathédrale Notre-Dame de Paris.","320w":"/assets/paris/320w/12.jpg"},
+    {"route":"paris","name":"/assets/paris/13.jpg","memo":"Centre Pompidou.","320w":"/assets/paris/320w/13.jpg"},
+    {"route":"paris","name":"/assets/paris/14.jpg","memo":"Musée des Archives nationales.","320w":"/assets/paris/320w/14.jpg"},
+    {"route":"paris","name":"/assets/paris/15.jpg","memo":"Place des Vosges.","320w":"/assets/paris/320w/15.jpg"},
+    {"route":"paris","name":"/assets/paris/16.jpg","memo":"Marie De Medicis Fountain.","320w":"/assets/paris/320w/16.jpg"},
+    {"route":"paris","name":"/assets/paris/17.jpg","memo":"Historic, decorative fountain with sculptures in a quiet, tree-shaded area of Luxembourg Garden.","320w":"/assets/paris/320w/17.jpg"},
+    {"route":"paris","name":"/assets/paris/18.jpg","memo":"Luxembourg Palace. Palais du Luxembourg.","320w":"/assets/paris/320w/18.jpg"},
+    {"route":"paris","name":"/assets/paris/19.jpg","memo":"Luxembourg Gardens. Le Jardin du Luxembourg.","320w":"/assets/paris/320w/19.jpg"},
+    {"route":"paris","name":"/assets/paris/20.jpg","memo":"Galerie Colbert.","320w":"/assets/paris/320w/20.jpg"}
+    ]
+    }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.24.0/dist/phaser.min.js"></script>
+  </head>
+  <style>
+    html, body  {
+       height: 100%;
+       width: 100%;
+    }
+  </style>
+  <script>
+      var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+  </script>
+  <body>
+    <div id="footballgame">
+      <script src="./g01.js"></script>
+    </div>
+  </body>
+</html>
