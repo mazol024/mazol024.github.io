@@ -26,12 +26,12 @@
 <p id="demo"></p>
 
 <div  >
-  <img id="pic1" src="spain/11.jpg" alt="Flame" style="width:auto;">
+  <img id="pic1" src="spain/11.jpg" alt="Flame" style="width:100%;">
 </div>
   <button>Resize div</button>
 </body>
 <script>
-  $("#pic1").width(0.96*w).height(0.85*h);
+  $("#pic1").height(0.85*h);
   $(document).ready(function(){
     $("button").click(function(){$("#pic1").width(500).height(500);});
     });
