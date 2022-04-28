@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+  var x = document.getElementById("demo");
+  x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
+  $("#pic1").width(w/2).height(h/2);
+  </script>
   <script>
     $(document).ready(function(){
     $("button").click(function(){$("#pic1").width(500).height(500);});
@@ -15,9 +22,9 @@
   margin: 3px;
   border: 1px solid blue;
   background-color: lightblue;
-}
-</style>
-      </head>
+  }
+  </style>
+  </head>
 <body>
 
 <h2>Get the size of the current screen/window</h2>
@@ -25,16 +32,8 @@
 
 <p id="demo"></p>
 
-<script>
-var w = window.innerWidth;
-var h = window.innerHeight;
-
-var x = document.getElementById("demo");
-x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
-$("#pic1").width(w/2).height(h/2);
-</script>
 <div id="pic1" >
-<img src="flame.png" alt="Flame">
+  <img src="flame.png" alt="Flame">
 </div>
   <button>Resize div</button>
 </body>
