@@ -24,12 +24,13 @@
 <p id="demo"></p>
 
 <div id="pic1">
-  <img  src="spain/11.jpg" alt="Flame" style="margin-left:auto;margin-right:auto;">
+  <img  id="pic2" src="spain/11.jpg" alt="Flame" style="margin-left:auto;margin-right:auto;">
 </div>
   <button>Resize div</button>
 </body>
 <script>
   $("#pic1").height(0.80*h);
+  $("#pic2").height(0.80*h);
   $(document).ready(function(){
     $("button").click(function(){$("#pic1").height(500);});
     });
