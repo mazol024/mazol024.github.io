@@ -1,17 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-  var w = window.innerWidth;
-  var h = window.innerHeight;
-  var x = document.getElementById("demo");
-  x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
-  $("#pic1").width(w/2).height(h/2);
- 
-  $(document).ready(function(){
-    $("button").click(function(){$("#pic1").width(500).height(500);});
-    });
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
   <style>
   #pic1 {
   height: 400px;
@@ -35,4 +26,15 @@
 </div>
   <button>Resize div</button>
 </body>
+  <script>
+    var w = window.innerWidth;
+  var h = window.innerHeight;
+  var x = document.getElementById("demo");
+  x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
+  $("#pic1").width(w/2).height(h/2);
+ 
+  $(document).ready(function(){
+    $("button").click(function(){$("#pic1").width(500).height(500);});
+    });
+  </script>
 </html>
