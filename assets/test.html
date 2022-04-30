@@ -27,7 +27,7 @@
   var wi = document.querySelector("#pic2").naturalWidth;
   var hi = document.querySelector("#pic2").naturalHeight;
   $("#demo").last().html("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi + ".");
-  alert("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi +  "." );
+  alert("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi +  "."  + "Aff");
   </script>
 </body>
 <script>
@@ -39,6 +39,7 @@
     $("button").click(function(){
       $("#pic1").height(500);
       $("#pic2").height(500);
+      $("#pic2").width(500);
     });
     });
   </script>
