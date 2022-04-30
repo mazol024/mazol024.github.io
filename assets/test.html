@@ -28,6 +28,9 @@
   var hi = document.querySelector("#pic2").naturalHeight;
   $("#demo").last().html("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi + ".");
   alert("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi +  "." );
+  if ( wi > w ) {
+      $("#pic2").width(w-10);
+  }
   </script>
 </body>
 <script>
