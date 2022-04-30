@@ -24,18 +24,18 @@
 <script>
   var w = screen.availWidth;
   var h = screen.availHeight;
-  var wi = document.querySelector("#pic2").naturalWidth;
-  var hi = document.querySelector("#pic2").naturalHeight;
+  var wi = document.querySelector("#pic1").naturalWidth;
+  var hi = document.querySelector("#pic1").naturalHeight;
   $("#demo").last().html("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi + ".");
   $("#pic1").height(0.77*h);
-  $("#pic2").height(0.77*h-150);
-  $("#pic2").width(((w*hi)/wi)*0.9);
+  $("#pic2").height(0.8*hi);
+  $("#pic2").width(wi*0.8);
   alert("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi +  "."  + " Uhh!");
   $(document).ready(function(){
     $("button").click(function(){
       $("#pic1").height(500);
       $("#pic2").height(500-150);
-      $("#pic2").width(((500*hi)/wi)*0.9);
+      $("#pic2").width(((500*0.9);
     });
     });
   </script>
