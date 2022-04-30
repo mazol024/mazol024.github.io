@@ -29,13 +29,13 @@
   $("#demo").last().html("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi + ".");
   $("#pic1").height(0.77*h);
   $("#pic2").height(0.77*h-150);
-  $("#pic2").width(w*0.7);
-  alert("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi +  "."  + "Ag!");
+  $("#pic2").width(((w*wi)/hi)*0.9);
+  alert("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi +  "."  + "Brr!");
   $(document).ready(function(){
     $("button").click(function(){
       $("#pic1").height(500);
       $("#pic2").height(500-150);
-      $("#pic2").width(w*0.7);
+      $("#pic2").width(((500*wi)/hi)*0.9);
     });
     });
   </script>
