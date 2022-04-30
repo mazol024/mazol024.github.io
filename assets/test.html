@@ -25,9 +25,9 @@
   var w = window.innerWidth;
   var h = window.innerHeight;
   var x = $("#demo").position().left;
-  var imgdim = document.getElementById("pic2");
-  var wi = imgdim.clientWidth;
-  var hi = imgdim.clientHeight;
+  $("#pic2");
+  var wi = $("#pic2").position().right;
+  var hi = $("#pic2").position().bottom;
   x.innerHTML = "Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi + ".";
   alert("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi + ".");
   </script>
