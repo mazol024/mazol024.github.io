@@ -28,13 +28,13 @@
   var hi = document.querySelector("#pic2").naturalHeight;
   $("#demo").last().html("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi + ".");
   alert("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi +  "." );
-  $("div.content pic2").css("width", w);
-  $("#pic2").css("height", h);
   </script>
 </body>
 <script>
   $("#pic1").height(0.77*h);
   $("#pic2").height(0.77*h-100);
+  $("#pic2").css("height", h);
+  $("#pic2").css("width", w);
   $(document).ready(function(){
     $("button").click(function(){
       $("#pic1").height(500);
