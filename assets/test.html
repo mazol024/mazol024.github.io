@@ -24,8 +24,8 @@
 <script>
   var w = screen.availWidth;
   var h = screen.availHeight;
-  var wi = document.querySelector("#pic1").naturalWidth;
-  var hi = document.querySelector("#pic1").naturalHeight;
+  var wi = $("#pic1").width();
+  var hi = $("#pic1").height();
   $("#demo").last().html("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi + ".");
   $("#pic1").height(0.77*h);
   $("#pic2").height(0.8*hi);
