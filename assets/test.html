@@ -24,10 +24,9 @@
 <script>
   var w = window.innerWidth;
   var h = window.innerHeight;
-  var x = $("#demo").position();
-  var wi = $("#pic2").naturalWidth;
+  var wi = document.querySelector("#pic2").naturalWidth;
   var hi = document.querySelector("#pic2").naturalHeight;
-  x.innerHTML = "Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi + ".";
+  $("#demo").innerHTML = "Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi + ".";
   alert("Browser width: " + w + ", height: " + h + ", Image width: " + wi + ", Image height: " + hi + " X : " +x+ "." );
   </script>
 </body>
